@@ -1,4 +1,4 @@
-module github.com/duiying/expired_map
+module github.com/duiying/expiredmap
 
 go 1.18
 
