@@ -1,4 +1,4 @@
-package expired_map
+package expiredmap
 
 import (
 	"go.uber.org/atomic"

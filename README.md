@@ -14,7 +14,7 @@ Key 的删除策略：
 ```go
 // 生成一个 key 是 int64 类型、value 是 *cacheItem 类型的 map
 // 最大容量为 10，每隔 5s 定时检查 Key 的过期时间（根据 Key 的数量适当调整定时检查时间，防止给 CPU 造成压力）
-em := NewExpiredMap[int64, *cacheItem](10, time.Second*5)
+em := expiredNewExpiredMap[int64, *cacheItem](10, time.Second*5)
 ```
 
 
